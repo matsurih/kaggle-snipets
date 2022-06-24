@@ -1,4 +1,7 @@
 - インターネット利用不可のコンペでpip installしたいときのsnipets
+- kaggle downloadする環境のpythonのバージョンとkaggle kernelのpythonのバージョンを一致させる必要がある
+  - 面倒であればすべてkaggel kernel上で実行するのが安全
+  - step1を/kaggle/working以下に吐き出すようにしたkernelを作成し、outputをdatasetとする
 
 ### 1. ローカルでpipのpackageをdownloadする
 ```shell
